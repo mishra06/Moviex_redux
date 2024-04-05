@@ -8,11 +8,12 @@
 .movies_collection_display{
 
     display: flex;
-     width: 100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     background-color: #04152d;
     height: auto;
+    flex-direction: column;
          
 }
 
@@ -20,20 +21,36 @@
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    margin-top: 2rem;
+    /* margin-top: 1rem; */
     gap: 1rem;
     justify-content: center;
 }
 
-.content_name_sec{
+.options_types{
     display: flex;
-    width: 100%;
-    align-items: center;
+    width: 90%;
     justify-content: space-between;
-    height: 2rem;
-    margin-bottom: 2rem;
-    background-color: red;
+    /* background-color: red; */
+    align-items: center;
+    font-family: Inter
+    Avenir
+    Helvetica
+    Arial
+    sans-serif;
+    color: white;
+
 }
+
+.content_name_sec{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content_filter_section{
+    width: 30%;
+    color: #04152d;
+}
+
 
 .mmmmm{
     display: flex;
