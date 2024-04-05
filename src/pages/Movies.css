@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.movies_collection_display{
+
+    display: flex;
+     width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #04152d;
+    height: auto;
+         
+}
+
+.content_upper_sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 2rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.content_name_sec{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    margin-bottom: 2rem;
+    background-color: red;
+}
+
+.mmmmm{
+    display: flex;
+    align-items: center;
+    width: 18%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60vh;
+    border-radius: 15px;
+}
