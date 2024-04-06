@@ -3,7 +3,7 @@ import "./App.css";
 import Home from "./pages/Home";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Movies from "./pages/Movies";
-import  TvShow  from "./pages/TvShow";
+import  NewTv  from "./pages/NewTv";
 import Search from "./pages/Search";
 import MovieDetails from "./pages/MovieDetails";
 
@@ -18,8 +18,8 @@ const routes = createBrowserRouter([
     Component: Movies,
   },
   {
-    path: "/tv-Shows",
-    Component: TvShow,
+    path: "/tv-Show",
+    Component: NewTv,
   },
   {
     path: "/search/:movie",

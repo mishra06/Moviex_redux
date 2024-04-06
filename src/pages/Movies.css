@@ -17,6 +17,19 @@
          
 }
 
+.newwww{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #04152d;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
 .content_upper_sec{
     display: flex;
     flex-wrap: wrap;

@@ -8,7 +8,12 @@ const initialState = {
     WhatsPopular:[],
     TopRatedMovie:[],
     Genres:[],
-    SortBy:[]
+    TvGenres:[],
+    SortBy:[],
+    Details:{},
+    Credits:{},
+    Similar :[],
+    Recomend:[]
 };
 
 const movieSlice = createSlice({
@@ -36,12 +41,27 @@ const movieSlice = createSlice({
         SetGenres:(state,action)=>{
             state.Genres = action.payload
         },
+        SetTvGenres:(state,action)=>{
+            state.TvGenres = action.payload
+        },
         SetSortBy:(state,action)=>{
             state.SortBy = action.payload
+        },
+        SetDetails:(state,action)=>{
+            state.Details = action.payload
+        },
+        SetCredits:(state,action)=>{
+            state.Credits = action.payload
+        },
+        SetSimilar:(state,action)=>{
+            state.Similar = action.payload
+        },
+        SetRecomend:(state,action)=>{
+            state.Recomend = action.payload
         }
     },   
 });
 
-export const {Trending,Searched,MoviesSec,TvShows,Populars,TopRateds,SetGenres,SetSortBy} = movieSlice.actions;
+export const {Trending,Searched,MoviesSec,TvShows,Populars,TopRateds,SetGenres,SetSortBy,SetDetails,SetTvGenres,SetCredits,SetSimilar,SetRecomend} = movieSlice.actions;
 
 export default movieSlice.reducer; 
